@@ -1,3 +1,58 @@
+/*-------------------------------------
+| index.php CSS
+-------------------------------------*/
+.header {
+    background-color: #009edb;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+div.painting {
+    display: flex;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+div.services a:hover {
+    text-decoration: none;
+}
+
+div.painting h1 {
+    float: left;
+    padding-left: 30px;
+    font-size: 2em;
+    color: #009edb;
+}
+
+div.painting img {
+    float: right;
+    padding-right: 30px;
+}
+
+div.carpet {
+    display: flex;
+    background-color: #92c5eb;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+div.carpet h1 {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 2em;
+    color: #fff;
+    text-align: right;
+}
+
+div.carpet img {
+    float: left;
+    padding-left: 16px;
+}
+
+
+
 .carousel-caption{
     color:#000;
     position:static;

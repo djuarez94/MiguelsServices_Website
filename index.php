@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div class="header">
-			<img src="img/miguelsLogo.png">
+			<img src="img/miguelsLogo.png" width="60px">
 		</div>
 		<div class="services">
 			<a href="paintingServices.php">
@@ -19,8 +19,8 @@
 			</a>
 			<a href="carpetCleaning.php">
 				<div class="carpet">
-					<h1>Miguel's Carpet Cleaning</h1>
 					<img src="img/carpetCleaner.png">
+					<h1>Miguel's Carpet Cleaning</h1>
 				</div>
 			</a>
 		</div>
