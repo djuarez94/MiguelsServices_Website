@@ -1,59 +1,240 @@
 /*-------------------------------------
 | index.php CSS
 -------------------------------------*/
-.header {
+.navbar-inverse {
     background-color: #009edb;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    border: none;
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 
-div.painting {
-    display: flex;
-    padding-top: 105px;
-    padding-bottom: 105px;
+.navbar-inverse .navbar-toggle {
+   border: none;
 }
 
-div.services a:hover {
-    text-decoration: none;
+.navbar-inverse .navbar-toggle:hover {
+   background-color: #0089c1;
 }
 
-div.painting h1 {
-    float: left;
-    padding-left: 30px;
-    font-size: 2em;
-    color: #009edb;
+.navbar-inverse .navbar-toggle:focus {
+   background-color: #0089c1;
 }
 
-div.painting img {
-    float: right;
-    padding-right: 30px;
+.navbar-inverse .navbar-nav li a {
+   color: #fff;
+   font-size: 16px;
 }
 
-div.carpet {
-    display: flex;
-    background-color: #92c5eb;
-    padding-top: 105px;
-    padding-bottom: 105px;
+.navbar-inverse .navbar-nav li:hover {
+   background-color: #0089c1;
 }
 
-div.carpet h1 {
-    float: right;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 2em;
+.navbar-brand {
+   padding-top: 4.5px;
+}
+
+div#myCarousel {
+    background: #92c5eb; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#92c5eb, #c1e1eb); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#92c5eb, #c1e1eb); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#92c5eb, #c1e1eb); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#92c5eb, #c1e1eb); /* Standard syntax */
+}
+
+div#myCarousel.carousel.slide {
+    margin-top: -20px;
+}
+
+#myCarousel h1 {
     color: #fff;
-    text-align: right;
+    font-size: 2em;
+    text-align: center;
+    padding: 2em 2em 0em 2em;
+    text-shadow: 0px 1px 5px #000;;
 }
 
-div.carpet img {
-    float: left;
-    padding-left: 16px;
+.carousel-inner {
+   margin-top: 3em;
+   padding-left: 3em;
+   padding-right: 3em;
 }
 
+.carousel-inner img {
+   padding-bottom: 2em;
+}
 
+.carousel-inner p {
+   font-size: 1.25em;
+   color: #fff;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   opacity: 1;
+}
+
+.carousel-control.left span, .carousel-control.right span {
+   font-size: 1.5em;
+}
 
 .carousel-caption{
     color:#000;
     position:static;
 }
+
+div.about {
+   text-align: center;
+   padding-left: 3em;
+   padding-right: 3em;
+   padding-bottom: 1em;
+   color: #009edb;
+}
+
+div.about h2 {
+   padding-bottom: .2em;
+}
+
+div.about p {
+   text-align: left;
+}
+
+.subTitle {
+   margin-top: -20px;
+}
+
+.subTitle h2 {
+   text-align: center;
+   color: #fff;
+   background-color: #009edb;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   margin-bottom: 0em;
+}
+
+div.BnA {
+	display: flex;
+}
+
+div.BnA .before {
+	flex: 2;
+   text-align: center;
+   padding-top: .25em;
+   padding-bottom: .25em;
+   color: #009edb;
+   font-size: 1.225em;
+}
+
+div.BnA .after {
+	flex: 2;
+   text-align: center;
+   padding-top: .25em;
+   padding-bottom: .25em;
+   color: #009edb;
+   font-size: 1.25em;
+}
+
+div.BnA .CC {
+	flex: 2;
+   text-align: center;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   color: #009edb;
+   font-size: 1.225em;
+   background-color: #dee788;
+}
+
+div.BnA .PS {
+	flex: 2;
+   text-align: center;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   color: #009edb;
+   font-size: 1.25em;
+   background-color: #dee788;
+}
+
+div.BnA .before:hover {
+   cursor: pointer;
+}
+
+div.BnA .after:hover {
+   cursor: pointer;
+}
+
+div.BnA .CC:hover {
+   cursor: pointer;
+}
+
+div.BnA .PS:hover {
+   cursor: pointer;
+}
+
+div.B2T {
+	padding: 0px 10px 15px 0px;
+}
+
+ div.services {
+   margin-top: 20px;
+ }
+
+ .contact {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.contact h2 {
+   text-align: center;
+   color: #fff;
+   background-color: #009edb;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   margin-top: 0em;
+}
+
+#submitButton {
+   position: relative;
+   right: 1em;
+   background-color: #dee788;
+   border: none;
+   color: #009edb;
+   font-size: 1.5em;
+   padding: 5px 20px 5px 20px;
+   margin-left: 5px;
+}
+
+#submitButton:hover {
+   background-color: #009edb;
+   color: #fff;
+}
+
+footer {
+   background-color: #009edb;
+   text-align: center;
+   padding-bottom: 2em;
+}
+
+footer img {
+   padding-top: 2em;
+   padding-bottom: 2em;
+}
+
+.email {
+   color: #fff;
+   padding-bottom: 1.5em;
+}
+
+div.number {
+   padding-bottom: 1.5em;
+}
+
+div.number a {
+   color: #fff;
+}
+
+.copyright {
+   color: #fff;
+}
+

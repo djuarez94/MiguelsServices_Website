@@ -79,17 +79,93 @@
 			<p>Hello! My name is Miguel Prieto and I provide professional carpet cleaning and painting services. I am located in the city of Long Beach, and have been running this business for 10 years. I began this business in hopes to give my clients the best painting and carpet cleaning services that any home or business owner would be happy to receive. I love to see the smiles on my clients faces when they see the new look to their house or business. So if you are looking to have a new paint job or a fresh carpet cleaned up and ready for any event you have came to the right place!</p>
 		</div>
 		<div class="services">
-			<div class="subTitle">
-				<h2>Services</h2>
-				<p>Click on image to see before and after.</p>
-			</div>
-			<div class="gallery">
-				<img src="img/miguelwebsitephotos/painting_before_1.jpg">
-				<img src="img/miguelwebsitephotos/painting_before_2.jpg">
+				<div class="row">
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<a href="/w3images/fjords.jpg">
+					  <img src="img/miguelwebsitephotos/carpetCleaning_1.jpg" alt="Carpet_Cleaning_1" style="width:100%">
+					  <div class="caption">
+						<p>Lorem ipsum...</p>
+					  </div>
+					</a>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<a href="/w3images/fjords.jpg">
+					  <img src="img/miguelwebsitephotos/carpetCleaning_2.jpg" alt="Carpet_Cleaning_2" style="width:100%">
+					  <div class="caption">
+						<p>Lorem ipsum...</p>
+					  </div>
+					</a>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<a href="/w3images/fjords.jpg">
+					  <img src="img/miguelwebsitephotos/carpetCleaning_3.jpg" alt="Carpet_Cleaning_3" style="width:100%">
+					  <div class="caption">
+						<p>Lorem ipsum...</p>
+					  </div>
+					</a>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<a href="/w3images/fjords.jpg">
+					  <img src="img/miguelwebsitephotos/carpetCleaning_4.jpg" alt="Carpet_Cleaning_4" style="width:100%">
+					  <div class="caption">
+						<p>Lorem ipsum...</p>
+					  </div>
+					</a>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<a href="/w3images/fjords.jpg">
+					  <img src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Carpet_Cleaning_5" style="width:100%">
+					  <div class="caption">
+						<p>Lorem ipsum...</p>
+					  </div>
+					</a>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<a href="/w3images/fjords.jpg">
+					  <img src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Carpet_Cleaning_6" style="width:100%">
+					  <div class="caption">
+						<p>Lorem ipsum...</p>
+					  </div>
+					</a>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<a href="/w3images/fjords.jpg">
+					  <img src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Carpet_Cleaning_7" style="width:100%">
+					  <div class="caption">
+						<p>Lorem ipsum...</p>
+					  </div>
+					</a>
+				  </div>
+				</div>
+				<div class="col-md-4">
+				  <div class="thumbnail">
+					<a href="/w3images/fjords.jpg">
+					  <img src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Carpet_Cleaning_8" style="width:100%">
+					  <div class="caption">
+						<p>Lorem ipsum...</p>
+					  </div>
+					</a>
+				  </div>
+				</div>
 			</div>
 		</div>
+		<div class="subTitle">
+			<h2>Contact Me</h2>
+		</div>
 		<div class="contact" id="contactMe">
-			<h1>Contact me</h1>
 			<form method="post" action="visualDesign.php#alert" id="contact" class="form-horizontal  text-left">
 				<div class="form-group text-left">
 					<label for="name">Name:</label>
@@ -114,7 +190,7 @@
 			<img src="img/miguelsLogo.png">
 			<div class="email">
 				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
-				<a href="#"><p>prietomiguel714@gmail.com</p></a>
+				<p>prietomiguel714@gmail.com</p>
 			</div>
 			<div class="number">
 				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
