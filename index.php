@@ -90,183 +90,188 @@
 					<div class="after">After</div>
 				</div>
 			</div>
-			<div class="row">
-			  <div class="col-md-4">
-			    <div class="thumbnail">
-			      <a href="/w3images/lights.jpg">
-			        <img src="img/miguelwebsitephotos/painting_before_1.jpg" alt="Before_1" style="width:100%">
-			        <div class="caption">
-			          <p>Lorem ipsum...</p>
-			        </div>
-			      </a>
-			    </div>
-			  </div>
-			  <div class="col-md-4">
-			    <div class="thumbnail">
-			      <a href="/w3images/nature.jpg">
-			        <img src="img/miguelwebsitephotos/painting_before_2.jpg" alt="Before_2" style="width:100%">
-			        <div class="caption">
-			          <p>Lorem ipsum...</p>
-			        </div>
-			      </a>
-			    </div>
-			  </div>
-			  <div class="col-md-4">
-			   <div class="thumbnail">
-				 <a href="/w3images/fjords.jpg">
-				   <img src="img/miguelwebsitephotos/painting_before_3.jpg" alt="Before_3" style="width:100%">
-				   <div class="caption">
-					 <p>Lorem ipsum...</p>
-				   </div>
-				 </a>
-			   </div>
-			 </div>
-			  <div class="col-md-4">
-			    <div class="thumbnail">
-			      <a href="/w3images/fjords.jpg">
-			        <img src="img/miguelwebsitephotos/painting_after_1.jpg" alt="After_1" style="width:100%">
-			        <div class="caption">
-			          <p>Lorem ipsum...</p>
-			        </div>
-			      </a>
-			    </div>
-			  </div>
-			 <div class="col-md-4">
-			   <div class="thumbnail">
-				 <a href="/w3images/fjords.jpg">
-				   <img src="img/miguelwebsitephotos/painting_after_3.jpg" alt="After_2" style="width:100%">
-				   <div class="caption">
-					 <p>Lorem ipsum...</p>
-				   </div>
-				 </a>
-			   </div>
-			 </div>
-			 <div class="col-md-4">
-			   <div class="thumbnail">
-				 <a href="/w3images/fjords.jpg">
-				   <img src="img/miguelwebsitephotos/painting_after_4.jpg" alt="After_3" style="width:100%">
-				   <div class="caption">
-					 <p>Lorem ipsum...</p>
-				   </div>
-				 </a>
-			   </div>
-			 </div>
-			 <div class="col-md-4">
-			   <div class="thumbnail">
-				 <a href="/w3images/fjords.jpg">
-				   <img src="img/miguelwebsitephotos/painting_after_5.jpg" alt="After_4" style="width:100%">
-				   <div class="caption">
-					 <p>Lorem ipsum...</p>
-				   </div>
-				 </a>
-			   </div>
-			 </div>
-			 <div class="col-md-4">
-			   <div class="thumbnail">
-				 <a href="/w3images/fjords.jpg">
-				   <img src="img/miguelwebsitephotos/painting_after_6.jpg" alt="After_5" style="width:100%">
-				   <div class="caption">
-					 <p>Lorem ipsum...</p>
-				   </div>
-				 </a>
-			   </div>
-			 </div>
-			 <div class="col-md-4">
-			   <div class="thumbnail">
-				 <a href="/w3images/fjords.jpg">
-				   <img src="img/miguelwebsitephotos/painting_after_7.jpg" alt="After_6" style="width:100%">
-				   <div class="caption">
-					 <p>Lorem ipsum...</p>
-				   </div>
-				 </a>
-			   </div>
-			 </div>
-			</div>
-		</div>
-		<div class="services">
+			<div class="container" style="width:100%;">
 				<div class="row">
-				<div class="col-md-4">
-				  <div class="thumbnail">
-					<a href="/w3images/fjords.jpg">
-					  <img src="img/miguelwebsitephotos/carpetCleaning_1.jpg" alt="Carpet_Cleaning_1" style="width:100%">
-					  <div class="caption">
-						<p>Lorem ipsum...</p>
-					  </div>
-					</a>
+				  <div class="col-md-4">
+				    <div class="thumbnail">
+				      <a href="/w3images/lights.jpg">
+				        <img src="img/miguelwebsitephotos/painting_before_1.jpg" alt="Before_1" style="width:100%">
+				        <div class="caption">
+				          <p>Lorem ipsum...</p>
+				        </div>
+				      </a>
+				    </div>
 				  </div>
+				  <div class="col-md-4">
+				    <div class="thumbnail">
+				      <a href="/w3images/nature.jpg">
+				        <img src="img/miguelwebsitephotos/painting_before_2.jpg" alt="Before_2" style="width:100%">
+				        <div class="caption">
+				          <p>Lorem ipsum...</p>
+				        </div>
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-4">
+				   <div class="thumbnail">
+					 <a href="/w3images/fjords.jpg">
+					   <img src="img/miguelwebsitephotos/painting_before_3.jpg" alt="Before_3" style="width:100%">
+					   <div class="caption">
+						 <p>Lorem ipsum...</p>
+					   </div>
+					 </a>
+				   </div>
+				 </div>
+				  <div class="col-md-4">
+				    <div class="thumbnail">
+				      <a href="/w3images/fjords.jpg">
+				        <img src="img/miguelwebsitephotos/painting_after_1.jpg" alt="After_1" style="width:100%">
+				        <div class="caption">
+				          <p>Lorem ipsum...</p>
+				        </div>
+				      </a>
+				    </div>
+				  </div>
+				 <div class="col-md-4">
+				   <div class="thumbnail">
+					 <a href="/w3images/fjords.jpg">
+					   <img src="img/miguelwebsitephotos/painting_after_3.jpg" alt="After_2" style="width:100%">
+					   <div class="caption">
+						 <p>Lorem ipsum...</p>
+					   </div>
+					 </a>
+				   </div>
+				 </div>
+				 <div class="col-md-4">
+				   <div class="thumbnail">
+					 <a href="/w3images/fjords.jpg">
+					   <img src="img/miguelwebsitephotos/painting_after_4.jpg" alt="After_3" style="width:100%">
+					   <div class="caption">
+						 <p>Lorem ipsum...</p>
+					   </div>
+					 </a>
+				   </div>
+				 </div>
+				 <div class="col-md-4">
+				   <div class="thumbnail">
+					 <a href="/w3images/fjords.jpg">
+					   <img src="img/miguelwebsitephotos/painting_after_5.jpg" alt="After_4" style="width:100%">
+					   <div class="caption">
+						 <p>Lorem ipsum...</p>
+					   </div>
+					 </a>
+				   </div>
+				 </div>
+				 <div class="col-md-4">
+				   <div class="thumbnail">
+					 <a href="/w3images/fjords.jpg">
+					   <img src="img/miguelwebsitephotos/painting_after_6.jpg" alt="After_5" style="width:100%">
+					   <div class="caption">
+						 <p>Lorem ipsum...</p>
+					   </div>
+					 </a>
+				   </div>
+				 </div>
+				 <div class="col-md-4">
+				   <div class="thumbnail">
+					 <a href="/w3images/fjords.jpg">
+					   <img src="img/miguelwebsitephotos/painting_after_7.jpg" alt="After_6" style="width:100%">
+					   <div class="caption">
+						 <p>Lorem ipsum...</p>
+					   </div>
+					 </a>
+				   </div>
+				 </div>
 				</div>
-				<div class="col-md-4">
-				  <div class="thumbnail">
-					<a href="/w3images/fjords.jpg">
-					  <img src="img/miguelwebsitephotos/carpetCleaning_2.jpg" alt="Carpet_Cleaning_2" style="width:100%">
-					  <div class="caption">
-						<p>Lorem ipsum...</p>
+			</div>
+			<div class="container" style="width:100%;">
+				<div class="row">
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="/w3images/fjords.jpg">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_1.jpg" alt="Carpet_Cleaning_1" style="width:100%">
+						  <div class="caption">
+							<p>Lorem ipsum...</p>
+						  </div>
+						</a>
 					  </div>
-					</a>
-				  </div>
-				</div>
-				<div class="col-md-4">
-				  <div class="thumbnail">
-					<a href="/w3images/fjords.jpg">
-					  <img src="img/miguelwebsitephotos/carpetCleaning_3.jpg" alt="Carpet_Cleaning_3" style="width:100%">
-					  <div class="caption">
-						<p>Lorem ipsum...</p>
+					</div>
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="/w3images/fjords.jpg">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_2.jpg" alt="Carpet_Cleaning_2" style="width:100%">
+						  <div class="caption">
+							<p>Lorem ipsum...</p>
+						  </div>
+						</a>
 					  </div>
-					</a>
-				  </div>
-				</div>
-				<div class="col-md-4">
-				  <div class="thumbnail">
-					<a href="/w3images/fjords.jpg">
-					  <img src="img/miguelwebsitephotos/carpetCleaning_4.jpg" alt="Carpet_Cleaning_4" style="width:100%">
-					  <div class="caption">
-						<p>Lorem ipsum...</p>
+					</div>
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="/w3images/fjords.jpg">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_3.jpg" alt="Carpet_Cleaning_3" style="width:100%">
+						  <div class="caption">
+							<p>Lorem ipsum...</p>
+						  </div>
+						</a>
 					  </div>
-					</a>
-				  </div>
-				</div>
-				<div class="col-md-4">
-				  <div class="thumbnail">
-					<a href="/w3images/fjords.jpg">
-					  <img src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Carpet_Cleaning_5" style="width:100%">
-					  <div class="caption">
-						<p>Lorem ipsum...</p>
+					</div>
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="/w3images/fjords.jpg">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_4.jpg" alt="Carpet_Cleaning_4" style="width:100%">
+						  <div class="caption">
+							<p>Lorem ipsum...</p>
+						  </div>
+						</a>
 					  </div>
-					</a>
-				  </div>
-				</div>
-				<div class="col-md-4">
-				  <div class="thumbnail">
-					<a href="/w3images/fjords.jpg">
-					  <img src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Carpet_Cleaning_6" style="width:100%">
-					  <div class="caption">
-						<p>Lorem ipsum...</p>
+					</div>
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="/w3images/fjords.jpg">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Carpet_Cleaning_5" style="width:100%">
+						  <div class="caption">
+							<p>Lorem ipsum...</p>
+						  </div>
+						</a>
 					  </div>
-					</a>
-				  </div>
-				</div>
-				<div class="col-md-4">
-				  <div class="thumbnail">
-					<a href="/w3images/fjords.jpg">
-					  <img src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Carpet_Cleaning_7" style="width:100%">
-					  <div class="caption">
-						<p>Lorem ipsum...</p>
+					</div>
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="/w3images/fjords.jpg">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Carpet_Cleaning_6" style="width:100%">
+						  <div class="caption">
+							<p>Lorem ipsum...</p>
+						  </div>
+						</a>
 					  </div>
-					</a>
-				  </div>
-				</div>
-				<div class="col-md-4">
-				  <div class="thumbnail">
-					<a href="/w3images/fjords.jpg">
-					  <img src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Carpet_Cleaning_8" style="width:100%">
-					  <div class="caption">
-						<p>Lorem ipsum...</p>
+					</div>
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="/w3images/fjords.jpg">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Carpet_Cleaning_7" style="width:100%">
+						  <div class="caption">
+							<p>Lorem ipsum...</p>
+						  </div>
+						</a>
 					  </div>
-					</a>
-				  </div>
+					</div>
+					<div class="col-md-4">
+					  <div class="thumbnail">
+						<a href="/w3images/fjords.jpg">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Carpet_Cleaning_8" style="width:100%">
+						  <div class="caption">
+							<p>Lorem ipsum...</p>
+						  </div>
+						</a>
+					  </div>
+					</div>
 				</div>
 			</div>
 		</div>
+		<!-- <div class="services"> -->
+
+		<!-- </div> -->
 		<div class="B2T text-right"><a href="#">Back to Services</a></div>
 		<div class="subTitle">
 			<h2>Contact Me</h2>
