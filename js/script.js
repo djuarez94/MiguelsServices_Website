@@ -26,6 +26,7 @@ $(document).ready(function() {
         $(".home").click(scrollHome);
         $(".about").click(scrollAbout);
         $(".services").click(scrollServices);
+        $(".B2T").click(scrollServices);
         $(".contact2").click(scrollContact);
 
 /*-------------------------------------
@@ -88,14 +89,22 @@ $window.trigger('scroll');
 -------------------------------------*/
 function displayPainting () {
   $('#paint').removeClass('hidden');
-  // $('#paint').addClass('show');
-  // $('#carpet').addClass('hidden');
+  $('.B2T').removeClass('hidden');
+
+  $('#carpet').addClass('hidden');
+  $('.B2T').addClass('show');
+
+  $('.instruction').addClass('hidden');
 }
 
 function displayCarpet () {
   $('#carpet').removeClass('hidden');
-  // $('#carpet').addClass('show');
-  // $('#paint').addClass('hidden');
+  $('.B2T').removeClass('hidden');
+
+  $('#paint').addClass('hidden');
+  $('.B2T').addClass('show');
+
+  $('.instruction').addClass('hidden');
 }
 
 $('.PS').click(displayPainting);

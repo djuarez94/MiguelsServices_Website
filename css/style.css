@@ -1,5 +1,14 @@
+.modal.and.carousel {
+  position: fixed; // Needed because the carousel overrides the position property
+}
+
 .hidden {
   display: none;
+}
+
+.caption p {
+  color: #156199;
+  font-size: 1.25em;
 }
 
 /* FADE IN WHEN SCROLLNG EFFECT */
@@ -109,14 +118,13 @@ div#myCarousel.carousel.slide {
     text-shadow: 0px 1px 5px #000;;
 }
 
-.carousel-inner {
-   margin-top: 3em;
-   padding-left: 3em;
-   padding-right: 3em;
-}
-
 .carousel-inner img {
    padding-bottom: 2em;
+}
+
+img.flip{
+    transform: rotate(90deg);
+    margin-right: 1em;
 }
 
 .carousel-inner p {
@@ -132,11 +140,6 @@ div#myCarousel.carousel.slide {
 
 .carousel-control.left span, .carousel-control.right span {
    font-size: 1.5em;
-}
-
-.carousel-caption{
-    color:#000;
-    position:static;
 }
 
 div.about {
@@ -166,6 +169,10 @@ div.about p {
    padding-top: 1em;
    padding-bottom: 1em;
    margin-bottom: 0em;
+}
+
+div.container {
+  margin-top: 2em;
 }
 
 div.BnA {
@@ -226,6 +233,13 @@ div.BnA .PS:hover {
    cursor: pointer;
 }
 
+.instruction {
+	text-align: center;
+	color: #156199;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
 div.B2T {
 	padding: 0px 10px 15px 0px;
 }
@@ -280,13 +294,50 @@ footer img {
 .email {
    color: #fff;
    padding-bottom: 1.5em;
+   text-align: left;
+   padding-right: 3em;
+  position: relative;
+   left: 2em;
 }
 
-div.number {
-   padding-bottom: 1.5em;
+.email i {
+  float: left;
+}
+
+
+.number {
+  color: #fff;
+  padding-bottom: 1.5em;
+  text-align: left;
+  padding-right: 3em;
+  position: relative;
+  left: 2em;
+}
+
+
+.number i {
+  float: left;
+}
+
+.number2 {
+  color: #fff;
+  padding-bottom: 1.5em;
+  text-align: left;
+  padding-right: 3em;
+  position: relative;
+  left: 2em;
+}
+
+
+.number2 i {
+  float: left;
 }
 
 div.number a {
+   color: #fff;
+}
+
+div.number2 a {
    color: #fff;
 }
 

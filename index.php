@@ -41,25 +41,25 @@
 			</ol>
 			<h1 class="star shadow">Miguel's Painting & Carpet Cleaning Services</h1>
 			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
+			<div class="carousel-inner" style="margin-top: 3em; padding-left: 3em; padding-right: 3em;">
 				<div class="item active">
-					<div class="carousel-caption">
+					<div class="carousel-caption" style="position:static;">
 						<img class='star shadow' src="img/gpsIcon.png">
 						<p>Miguel's Carpet Cleaning covers up to 40 miles in the Long Beach, Los Angeles area.</p>
 					</div>
 				</div>
 
 				<div class="item">
-					<div class="carousel-caption">
-						<img class='star shadow' src="img/moneysaveIcon.png">
-						<p>Quality work that leaves your home and business like new, without leaving your pockets empty.</p>
+					<div class="carousel-caption" style="position:static;">
+						<img class='star shadow' src="img/handshakeIcon.png">
+						<p>Lending a helping hand with quality service for my customers. </p>
 					</div>
 				</div>
 
 				<div class="item">
-					<div class="carousel-caption">
-						<img class='star shadow' src="img/handshakeIcon.png">
-						<p>Lending a helping hand with quality service for my customers. </p>
+					<div class="carousel-caption" style="position:static;">
+						<img class='star shadow' src="img/moneysaveIcon.png">
+						<p>Quality work that leaves your home and business like new, without leaving your pockets empty.</p>
 					</div>
 				</div>
 			</div>
@@ -90,178 +90,324 @@
 					<div class="after">After</div>
 				</div>
 			</div>
-			<div class="container" style="width:100%;">
+			<div class="instruction">
+				<h2>Click a service above!</h2>
+			</div>
+			<div class="container">
+			  <div class="modal fade and carousel slide" id="lightbox">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-body">
+			          <!-- <ol class="carousel-indicators">
+			            <li data-target="#lightbox" data-slide-to="0" class="active"></li>
+			            <li data-target="#lightbox" data-slide-to="1"></li>
+			            <li data-target="#lightbox" data-slide-to="2"></li>
+			          </ol> -->
+			          <div class="carousel-inner">
+			            <div class="item active">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_1.jpg" alt="First slide">
+						  <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+			            <div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_2.jpg" alt="Second slide">
+						  <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+			            <div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_3.jpg" alt="Third slide">
+			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_4.jpg" alt="Fourth slide">
+			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Fifth slide">
+			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Sixth slide">
+			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Seventh slide">
+			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Eight slide">
+			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+						<div class="item">
+			              <img src="img/miguelwebsitephotos/carpetCleaning_9.jpg" alt="Nineth slide">
+			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			            </div>
+						<div class="item">
+			              <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Eleventh slide">
+			              <div class="carousel-caption"><p>Product used to clean floor/ carpet.</p></div>
+			            </div>
+			          </div><!-- /.carousel-inner -->
+			          <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+			            <span class="glyphicon glyphicon-chevron-left"></span>
+			          </a>
+			          <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+			            <span class="glyphicon glyphicon-chevron-right"></span>
+			          </a>
+			        </div><!-- /.modal-body -->
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+			</div><!-- /.container -->
+			<div class="container">
+			  <div class="modal fade and carousel slide" id="lightbox2">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-body">
+			          <!-- <ol class="carousel-indicators">
+			            <li data-target="#lightbox2" data-slide-to="0" class="active"></li>
+			            <li data-target="#lightbox2" data-slide-to="1"></li>
+			            <li data-target="#lightbox2" data-slide-to="2"></li>
+			          </ol> -->
+			          <div class="carousel-inner" id="carousel-inner_2">
+						  <div class="item active">
+  			              <img src="img/miguelwebsitephotos/painting_before_1.jpg" alt="First slide">
+  			              <div class="carousel-caption"><p>Before painting</p></div>
+  			            </div>
+  						<div class="item">
+  			              <img src="img/miguelwebsitephotos/painting_before_2.jpg" alt="Second slide">
+  			              <div class="carousel-caption"><p>Before painting</p></div>
+  			            </div>
+  						<div class="item">
+  			              <img class="flip" src="img/miguelwebsitephotos/painting_before_3.jpg" alt="Third slide">
+  			              <div class="carousel-caption"><p>Before painting</p></div>
+  			            </div>
+			            <div class="item">
+			              <img src="img/miguelwebsitephotos/painting_after_1.jpg" alt="Fourth slide">
+						  <div class="carousel-caption"><p>After painting</p></div>
+			            </div>
+			            <div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/painting_after_3.jpg" alt="Fifth slide">
+			              <div class="carousel-caption"><p>After painting</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/painting_after_4.jpg" alt="Sixth slide">
+			              <div class="carousel-caption"><p>After painting</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/painting_after_5.jpg" alt="Seventh slide">
+			              <div class="carousel-caption"><p>After painting</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/painting_after_6.jpg" alt="Eighth slide">
+			              <div class="carousel-caption"><p>After painting</p></div>
+			            </div>
+						<div class="item">
+			              <img class="flip" src="img/miguelwebsitephotos/painting_after_7.jpg" alt="Nineth slide">
+			              <div class="carousel-caption"><p>After painting</p></div>
+			            </div>
+			          </div><!-- /.carousel-inner -->
+			          <a class="left carousel-control" href="#lightbox2" role="button" data-slide="prev">
+			            <span class="glyphicon glyphicon-chevron-left"></span>
+			          </a>
+			          <a class="right carousel-control" href="#lightbox2" role="button" data-slide="next">
+			            <span class="glyphicon glyphicon-chevron-right"></span>
+			          </a>
+			        </div><!-- /.modal-body -->
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+			</div><!-- /.container -->
+			<div class="container hidden" style="width:100%;" id="paint">
 				<div class="row">
-				  <div class="col-md-4 hidden" id="paint">
+				  <div class="col-md-4">
 				    <div class="thumbnail star">
-				      <a href="/w3images/lights.jpg">
-				        <img src="img/miguelwebsitephotos/painting_before_1.jpg" alt="Before_1" style="width:100%">
-				        <div class="caption">
-				          <p>Lorem ipsum...</p>
-				        </div>
-				      </a>
+				      <a href="#lightbox2" data-toggle="modal">
+						<img src="img/miguelwebsitephotos/painting_before_1.jpg" alt="">
+						<div class="caption">
+  				          <p>Before Painting</p>
+  				        </div>
+					  </a>
 				    </div>
 				  </div>
-				  <div class="col-md-4 hidden" id="paint">
+				  <div class="col-md-4">
 				    <div class="thumbnail star">
-				      <a href="/w3images/nature.jpg">
-				        <img src="img/miguelwebsitephotos/painting_before_2.jpg" alt="Before_2" style="width:100%">
-				        <div class="caption">
-				          <p>Lorem ipsum...</p>
-				        </div>
-				      </a>
+						<a href="#lightbox2" data-toggle="modal">
+  							<img src="img/miguelwebsitephotos/painting_before_2.jpg" alt="">
+  							<div class="caption">
+    				          <p>Before Painting</p>
+    				        </div>
+  					  	</a>
 				    </div>
 				  </div>
-				  <div class="col-md-4 hidden" id="paint">
+				  <div class="col-md-4">
 				   <div class="thumbnail star">
-					 <a href="/w3images/fjords.jpg">
-					   <img src="img/miguelwebsitephotos/painting_before_3.jpg" alt="Before_3" style="width:100%">
-					   <div class="caption">
-						 <p>Lorem ipsum...</p>
-					   </div>
-					 </a>
+						<a href="#lightbox2" data-toggle="modal">
+	  					   <img src="img/miguelwebsitephotos/painting_before_3_small.jpg" alt="">
+	  					   <div class="caption">
+	  						 <p>Before Painting</p>
+	  					   </div>
+  					 	</a>
 				   </div>
 				 </div>
-				  <div class="col-md-4 hidden" id="paint">
+				  <div class="col-md-4">
 				    <div class="thumbnail star">
-				      <a href="/w3images/fjords.jpg">
+				      <a href="#lightbox2" data-toggle="modal">
 				        <img src="img/miguelwebsitephotos/painting_after_1.jpg" alt="After_1" style="width:100%">
 				        <div class="caption">
-				          <p>Lorem ipsum...</p>
+				          <p>After Painting</p>
 				        </div>
 				      </a>
 				    </div>
 				  </div>
-				 <div class="col-md-4 hidden" id="paint">
+				 <div class="col-md-4">
 				   <div class="thumbnail star">
-					 <a href="/w3images/fjords.jpg">
-					   <img src="img/miguelwebsitephotos/painting_after_3.jpg" alt="After_2" style="width:100%">
+					 <a href="#lightbox2" data-toggle="modal">
+					   <img src="img/miguelwebsitephotos/painting_after_5_small.jpg" alt="After_2" style="width:100%">
 					   <div class="caption">
-						 <p>Lorem ipsum...</p>
+						 <p>After Painting</p>
 					   </div>
 					 </a>
 				   </div>
 				 </div>
-				 <div class="col-md-4 hidden" id="paint">
+				 <div class="col-md-4">
 				   <div class="thumbnail star">
-					 <a href="/w3images/fjords.jpg">
-					   <img src="img/miguelwebsitephotos/painting_after_4.jpg" alt="After_3" style="width:100%">
+					 <a href="#lightbox2" data-toggle="modal">
+					   <img src="img/miguelwebsitephotos/painting_after_4_small.jpg" alt="After_3" style="width:100%">
 					   <div class="caption">
-						 <p>Lorem ipsum...</p>
+						 <p>After Painting</p>
 					   </div>
 					 </a>
 				   </div>
 				 </div>
-				 <div class="col-md-4 hidden" id="paint">
+				 <div class="col-md-4">
 				   <div class="thumbnail star">
-					 <a href="/w3images/fjords.jpg">
-					   <img src="img/miguelwebsitephotos/painting_after_5.jpg" alt="After_4" style="width:100%">
+					 <a href="#lightbox2" data-toggle="modal">
+					   <img src="img/miguelwebsitephotos/painting_after_5_small.jpg" alt="After_4" style="width:100%">
 					   <div class="caption">
-						 <p>Lorem ipsum...</p>
+						 <p>After Painting</p>
 					   </div>
 					 </a>
 				   </div>
 				 </div>
-				 <div class="col-md-4 hidden" id="paint">
+				 <div class="col-md-4">
 				   <div class="thumbnail star">
-					 <a href="/w3images/fjords.jpg">
-					   <img src="img/miguelwebsitephotos/painting_after_6.jpg" alt="After_5" style="width:100%">
+					 <a href="#lightbox2" data-toggle="modal">
+					   <img src="img/miguelwebsitephotos/painting_after_6_small.jpg" alt="After_5" style="width:100%">
 					   <div class="caption">
-						 <p>Lorem ipsum...</p>
+						 <p>After Painting</p>
 					   </div>
 					 </a>
 				   </div>
 				 </div>
-				 <div class="col-md-4 hidden" id="paint">
+				 <div class="col-md-4">
 				   <div class="thumbnail star">
-					 <a href="/w3images/fjords.jpg">
-					   <img src="img/miguelwebsitephotos/painting_after_7.jpg" alt="After_6" style="width:100%">
+					 <a href="#lightbox2" data-toggle="modal">
+					   <img src="img/miguelwebsitephotos/painting_after_7_small.jpg" alt="After_6" style="width:100%">
 					   <div class="caption">
-						 <p>Lorem ipsum...</p>
+						 <p>After Painting</p>
 					   </div>
 					 </a>
 				   </div>
 				 </div>
 				</div>
 			</div>
-			<div class="container" style="width:100%;">
+			<div class="container hidden" style="width:100%;" id="carpet">
 				<div class="row">
-					<div class="col-md-4 hidden" id="carpet">
+					<div class="col-md-4">
 					  <div class="thumbnail star">
-						<a href="/w3images/fjords.jpg">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_1.jpg" alt="Carpet_Cleaning_1" style="width:100%">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_1_small.jpg" alt="Carpet_Cleaning_1" style="width:100%">
 						  <div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Floor Cleaning</p>
 						  </div>
 						</a>
 					  </div>
 					</div>
-					<div class="col-md-4 hidden" id="carpet">
+					<div class="col-md-4">
 					  <div class="thumbnail star">
-						<a href="/w3images/fjords.jpg">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_2.jpg" alt="Carpet_Cleaning_2" style="width:100%">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_2_small.jpg" alt="Carpet_Cleaning_2" style="width:100%">
 						  <div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Floor Cleaning</p>
 						  </div>
 						</a>
 					  </div>
 					</div>
-					<div class="col-md-4 hidden" id="carpet">
+					<div class="col-md-4">
 					  <div class="thumbnail star">
-						<a href="/w3images/fjords.jpg">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_3.jpg" alt="Carpet_Cleaning_3" style="width:100%">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_3_small.jpg" alt="Carpet_Cleaning_3" style="width:100%">
 						  <div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Floor Cleaning</p>
 						  </div>
 						</a>
 					  </div>
 					</div>
-					<div class="col-md-4 hidden" id="carpet">
+					<div class="col-md-4">
 					  <div class="thumbnail star">
-						<a href="/w3images/fjords.jpg">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_4.jpg" alt="Carpet_Cleaning_4" style="width:100%">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_4_small.jpg" alt="Carpet_Cleaning_4" style="width:100%">
 						  <div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Floor Cleaning</p>
 						  </div>
 						</a>
 					  </div>
 					</div>
-					<div class="col-md-4 hidden" id="carpet">
+					<div class="col-md-4">
 					  <div class="thumbnail star">
-						<a href="/w3images/fjords.jpg">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Carpet_Cleaning_5" style="width:100%">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_5_small.jpg" alt="Carpet_Cleaning_5" style="width:100%">
 						  <div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Floor Cleaning</p>
 						  </div>
 						</a>
 					  </div>
 					</div>
-					<div class="col-md-4 hidden" id="carpet">
+					<div class="col-md-4">
 					  <div class="thumbnail star">
-						<a href="/w3images/fjords.jpg">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Carpet_Cleaning_6" style="width:100%">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_6_small.jpg" alt="Carpet_Cleaning_6" style="width:100%">
 						  <div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Floor Cleaning</p>
 						  </div>
 						</a>
 					  </div>
 					</div>
-					<div class="col-md-4 hidden" id="carpet">
+					<div class="col-md-4">
 					  <div class="thumbnail star">
-						<a href="/w3images/fjords.jpg">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Carpet_Cleaning_7" style="width:100%">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_7_small.jpg" alt="Carpet_Cleaning_7" style="width:100%">
 						  <div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Floor Cleaning</p>
 						  </div>
 						</a>
 					  </div>
 					</div>
-					<div class="col-md-4 hidden" id="carpet">
+					<div class="col-md-4">
 					  <div class="thumbnail star">
-						<a href="/w3images/fjords.jpg">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Carpet_Cleaning_8" style="width:100%">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_9_small.jpg" alt="Carpet_Cleaning_8" style="width:100%">
 						  <div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Carpet Cleaning</p>
+						  </div>
+						</a>
+					  </div>
+					</div>
+					<div class="col-md-4">
+					  <div class="thumbnail star">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_8_small.jpg" alt="Carpet_Cleaning_8" style="width:100%">
+						  <div class="caption">
+							<p>Equipment used for the cleaning process.</p>
+						  </div>
+						</a>
+					  </div>
+					</div>
+
+					<div class="col-md-4">
+					  <div class="thumbnail star">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Carpet_Cleaning_8" style="width:100%">
+						  <div class="caption">
+							<p>Product used to clean floor/ carpet.</p>
 						  </div>
 						</a>
 					  </div>
@@ -269,7 +415,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="B2T text-right hidden"><a href="#">Back to Services</a></div>
+		<div class="B2T text-right hidden"><a href="#services">Back to Services</a></div>
 		<div class="subTitle contact3">
 			<h2 class="animation-element slide-left">Contact Me</h2>
 		</div>
@@ -277,15 +423,15 @@
 			<form method="post" action="visualDesign.php#alert" id="contact" class="form-horizontal  text-left">
 				<div class="form-group text-left">
 					<label for="name">Name:</label>
-					<input name="name" type="name" class="form-control" id="name" placeholder= "Who will I be communicating with?">
+					<input name="name" type="name" class="form-control" id="name" placeholder= "Type full name">
 				</div>
 				<div class="form-group text-left">
 					<label for="email">Email:</label>
-					<input name="email" type="email" class="form-control" id="email" placeholder= "What is your email?">
+					<input name="email" type="email" class="form-control" id="email" placeholder= "Type email">
 				</div>
 				<div class="form-group text-left">
 					<label for="subject">Service:</label>
-					<input name="subject" type="text" class="form-control" id="subject" placeholder= "Which service would you like to know more about?">
+					<input name="subject" type="text" class="form-control" id="subject" placeholder= "Type service. (ex. Painting)">
 				</div>
 				<div class="form-group text-left">
 					<label for="message">Message:</label>
@@ -302,10 +448,11 @@
 			</div>
 			<div class="number">
 				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
-				<a href="tel:1-714-576-3294"><p>Primary Number : 714-576-3294</p></a>
-
+				<a href="tel:1-714-576-3294"><p>Primary : 714-576-3294</p></a>
+			</div>
+			<div class="number2">
 				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
-				<a href="tel:1-562-528-2770"><p>Secondary Number : 562-528-2770</p></a>
+				<a href="tel:1-562-528-2770"><p>Secondary : 562-528-2770</p></a>
 			</div>
 			<p class="copyright">&copy; <?php echo date('Y'); ?> Miguel's Painting Services.<br>All rights reserved.</p>
 		</footer>
