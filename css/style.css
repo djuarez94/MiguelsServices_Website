@@ -1,3 +1,12 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+body.modal-open {
+  padding-right: 0px;
+}
+
 .modal.and.carousel {
   position: fixed; // Needed because the carousel overrides the position property
 }
@@ -112,10 +121,10 @@ div#myCarousel.carousel.slide {
 
 #myCarousel h1 {
     color: #fff;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
-    padding: 2em 2em 0em 2em;
-    text-shadow: 0px 1px 5px #000;;
+    padding: 2em 1.5em 0em 1.5em;
+    text-shadow: 0px 1px 5px #000;
 }
 
 .carousel-inner img {
@@ -128,7 +137,7 @@ img.flip{
 }
 
 .carousel-inner p {
-   font-size: 1.25em;
+   font-size: 1.4em;
    color: #fff;
 }
 
@@ -156,6 +165,7 @@ div.about h2 {
 
 div.about p {
    text-align: left;
+   font-size: 1.2em;
 }
 
 .subTitle {
@@ -264,18 +274,18 @@ div.B2T {
    margin-top: 0em;
 }
 
-#submitButton {
+#sendButton {
    position: relative;
    right: 1em;
    background-color: #dee788;
    border: none;
    color: #156199;
    font-size: 1.5em;
-   padding: 5px 20px 5px 20px;
+   padding: 8px 20px 5px 20px;
    margin-left: 5px;
 }
 
-#submitButton:hover {
+#sendButton:hover {
    background-color: #156199;
    color: #fff;
 }
@@ -291,46 +301,47 @@ footer img {
    padding-bottom: 2em;
 }
 
+.contactLinks {
+  text-align: center;
+}
+
 .email {
-   color: #fff;
-   padding-bottom: 1.5em;
-   text-align: left;
-   padding-right: 3em;
-  position: relative;
-   left: 2em;
+  color: #fff;
+  padding-bottom: 1.5em;
+  padding-right: 3em;
+  text-align: center;
 }
 
 .email i {
-  float: left;
+  margin-left: 2em;
+}
+
+.email p {
+  display: inline-block;
+  margin-left: 2em;
 }
 
 
 .number {
   color: #fff;
   padding-bottom: 1.5em;
-  text-align: left;
   padding-right: 3em;
-  position: relative;
-  left: 2em;
 }
 
 
-.number i {
-  float: left;
+.number p {
+  display: inline-block;
 }
 
 .number2 {
   color: #fff;
   padding-bottom: 1.5em;
-  text-align: left;
   padding-right: 3em;
-  position: relative;
-  left: 2em;
 }
 
 
-.number2 i {
-  float: left;
+.number2 p {
+  display: inline-block;
 }
 
 div.number a {

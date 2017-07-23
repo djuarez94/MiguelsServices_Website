@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
@@ -41,7 +42,7 @@
 			</ol>
 			<h1 class="star shadow">Miguel's Painting & Carpet Cleaning Services</h1>
 			<!-- Wrapper for slides -->
-			<div class="carousel-inner" style="margin-top: 3em; padding-left: 3em; padding-right: 3em;">
+			<div class="carousel-inner" style="padding-left: 3em; padding-right: 3em;">
 				<div class="item active">
 					<div class="carousel-caption" style="position:static;">
 						<img class='star shadow' src="img/gpsIcon.png">
@@ -84,10 +85,6 @@
 				<div class="BnA star">
 					<div class="CC">Carpet Cleaning</div>
 					<div class="PS">Painting Services</div>
-				</div>
-				<div class="BnA hidden">
-					<div class="before">Before</div>
-					<div class="after">After</div>
 				</div>
 			</div>
 			<div class="instruction">
@@ -437,22 +434,24 @@
 					<label for="message">Message:</label>
 					<textarea class="form-control" rows="4" cols="50" id="message" name="message" style="width:100%" placeholder= "Type message here..." ></textarea>
 				</div>
-				<input id="submitButton" type="submit" value="Send" name="submit">
+				<input id="sendButton" type="submit" value="Send" name="submit">
 			</form>
 		</div>
 		<footer>
 			<img src="img/miguelsLogo.png" width="50px">
-			<div class="email">
-				<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
-				<p>prietomiguel714@gmail.com</p>
-			</div>
-			<div class="number">
-				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
-				<a href="tel:1-714-576-3294"><p>Primary : 714-576-3294</p></a>
-			</div>
-			<div class="number2">
-				<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
-				<a href="tel:1-562-528-2770"><p>Secondary : 562-528-2770</p></a>
+			<div class="contactLinks">
+				<div class="email">
+					<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
+					<p>prietomiguel714@gmail.com</p>
+				</div>
+				<div class="number">
+					<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
+					<a href="tel:1-714-576-3294"><p>Primary : 714-576-3294</p></a>
+				</div>
+				<div class="number2">
+					<i class="fa fa-mobile" aria-hidden="true" style="font-size: 2.5em;"></i>
+					<a href="tel:1-562-528-2770"><p>Secondary : 562-528-2770</p></a>
+				</div>
 			</div>
 			<p class="copyright">&copy; <?php echo date('Y'); ?> Miguel's Painting Services.<br>All rights reserved.</p>
 		</footer>

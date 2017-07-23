@@ -1,5 +1,24 @@
 $(document).ready(function() {
 /*-------------------------------------
+| Remove Padding-right On Modal click
+-------------------------------------*/
+$('#lightbox').on('shown.bs.modal', function() {
+       $("body.modal-open").removeAttr("style");
+ });
+
+ $('#lightbox2').on('shown.bs.modal', function() {
+        $("body.modal-open").removeAttr("style");
+  });
+
+$('#lightbox').on('shown', function() {
+        $("body.modal-open").removeAttr("style");
+});
+
+$('#lightbox2').on('shown', function() {
+        $("body.modal-open").removeAttr("style");
+});
+
+/*-------------------------------------
 | Smooth Scroll
 -------------------------------------*/
         function scrollHome () {
