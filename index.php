@@ -105,7 +105,7 @@ if (isset($_POST['name']))
 			</ol>
 			<h1 class="star shadow">Miguel's Painting & Carpet Cleaning Services</h1>
 			<!-- Wrapper for slides -->
-			<div class="carousel-inner" style="padding-left: 3em; padding-right: 3em;">
+			<div class="carousel-inner" id="mainCarousel">
 				<div class="item active">
 					<div class="carousel-caption" style="position:static;">
 						<img class='star shadow' src="img/gpsIcon.png">
@@ -139,8 +139,8 @@ if (isset($_POST['name']))
 			</a>
 		</div>
 		<div class="about" id="about">
-			<h2 class="star">Who Am I?</h2>
-			<p>Hello! My name is Miguel Prieto and I provide professional carpet cleaning and painting services. I am located in the city of Long Beach, and have been running this business for 10 years. I began this business in hopes to give my clients the best painting and carpet cleaning services that any home or business owner would be happy to receive. I love to see the smiles on my clients faces when they see the new look to their house or business. So if you are looking to have a new paint job or a fresh carpet cleaned up and ready for any event you have came to the right place!</p>
+			<h2>Who Am I?</h2>
+			<p class="star">Hello! My name is Miguel Prieto and I provide professional carpet cleaning and painting services. I am located in the city of Long Beach, and have been running this business for 10 years. I began this business in hopes to give my clients the best painting and carpet cleaning services that any home or business owner would be happy to receive. I love to see the smiles on my clients faces when they see the new look to their house or business. So if you are looking to have a new paint job or a fresh carpet cleaned up and ready for any event you have came to the right place!</p>
 		</div>
 		<div class="services" id="services">
 			<div class="subTitle">
@@ -521,8 +521,10 @@ if (isset($_POST['name']))
 					<a href="tel:1-562-528-2770"><p>Secondary : 562-528-2770</p></a>
 				</div>
 			</div>
-			<img src="img/miguelsLogo.png" width="50px">
-			<p class="copyright">&copy; <?php echo date('Y'); ?> Miguel's Painting & Carpet Cleaning Services.<br>All rights reserved.</p>
+			<div class="copyrightLogo">
+				<img src="img/miguelsLogo.png" width="50px">
+				<p class="copyright">&copy; <?php echo date('Y'); ?> Miguel's Painting & Carpet Cleaning Services.<br>All rights reserved.</p>
+			</div>
 		</footer>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

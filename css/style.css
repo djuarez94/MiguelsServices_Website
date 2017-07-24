@@ -107,6 +107,19 @@ img.shadow {
    padding-top: 4.5px;
 }
 
+.navbar-nav {
+  float: right;
+}
+
+.nav.navbar-nav li:hover {
+  background-color: #fff;
+}
+
+.nav.navbar-nav li a:hover {
+  color: #156199;
+}
+
+
 div#myCarousel {
     background: #92c5eb; /* For browsers that do not support gradients */
    background: -webkit-linear-gradient(#92c5eb, #c1e1eb); /* For Safari 5.1 to 6.0 */
@@ -119,12 +132,21 @@ div#myCarousel.carousel.slide {
     margin-top: -20px;
 }
 
+#mainCarousel {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
 #myCarousel h1 {
     color: #fff;
     font-size: 2.5em;
     text-align: center;
-    padding: 2em 1.5em 0em 1.5em;
+    padding: 1em 1.5em 0em 1.5em;
     text-shadow: 0px 1px 5px #000;
+}
+
+.carousel-inner {
+  padding-bottom: 1em;
 }
 
 .carousel-inner img {
@@ -374,3 +396,102 @@ div.number2 a {
    color: #fff;
 }
 
+/*-------------------------------------
+| Tablet CSS
+-------------------------------------*/
+@media only screen and (min-width: 600px) {
+  #mainCarousel {
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+
+  #contactMe {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about p {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar>.container-fluid .navbar-brand {
+     margin-left: 1em;
+  }
+
+  #myCarousel h1{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2.5em;
+  }
+
+  #mainCarousel {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+  div.about {
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+
+  .about p {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .copyright {
+    text-align: right;
+  }
+
+  div.copyrightLogo {
+    display: inline-block;
+    text-align: right;
+  }
+
+  div.contactLinks {
+    display: inline-block;
+    margin-left: -3em;
+  }
+
+  div.email {
+    padding-bottom: 0px;
+  }
+
+  div.number {
+    padding-bottom: 0px;
+  }
+
+  div.number2 {
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  div.copyrightLogo {
+    margin-left: 10em;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #mainCarousel p {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+  div.about {
+    padding-top: 2em;
+    padding-bottom: 3em;
+  }
+
+  div.copyrightLogo {
+    margin-left: 20em;
+  }
+}
