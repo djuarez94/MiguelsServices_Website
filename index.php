@@ -1,3 +1,66 @@
+<?php
+
+$feedback =''; //empty until there is feedback.
+
+if (isset($_POST['name']))
+{
+	/*-------------------------------------
+	| Initialize Variables
+	-------------------------------------*/
+	$to = "davidjuarez1411@gmail.com";
+	$subject = "Website Contact";
+
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$service = $_POST['service'];
+	$message = $_POST['message'];
+
+	/*-------------------------------------
+	| Validation
+	-------------------------------------*/
+	if ($name == '' || $email == '' || $subject == '' || $message == '')
+	{
+		$feedback = 'Fill out all the fields';
+	}
+	else
+	{
+		/*-------------------------------------
+		| Compose
+		-------------------------------------*/
+		$body = '
+			Hi! My name is ' . $name . ' I am sending you this email in reference your  ' . $service . ' services. <br><br>x
+
+			' . $message . '<br>
+
+			Sincerely,<br>
+			' . $name . '<br>
+			P.S. Oh yeah, my email is ' . $email . '.
+		';
+
+		/*-------------------------------------
+		| Make it look like a real eamil
+		-------------------------------------*/
+		$headers = "From: davidjuarez1411@gmail.com" . "\r\n";
+		$headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
+		// $headers .= "CC: susan@example.com\r\n";
+		$headers .= "MIME-Version: 1.0\r\n";
+		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+
+		/*-------------------------------------
+		| Send the email
+		-------------------------------------*/
+		if (!mail($to, $subject, $body, $headers))
+		{
+			$feedback = 'I apologize! We were unable to send from our hosted server. Please contact me directly <a href="mailto:davidjuarez1411@gmail.com">here</a>.';
+		}
+		else
+		{
+			$feedback = 'Message Sent from our servers. Let\'s hope it gets through the mail servers!';
+		}
+	}
+}
+?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -87,7 +150,8 @@
 					<div class="PS">Painting Services</div>
 				</div>
 			</div>
-			<div class="instruction">
+			<div class="instruction star">
+				<i class="fa fa-arrow-up" aria-hidden="true"></i>
 				<h2>Click a service above!</h2>
 			</div>
 			<div class="container">
@@ -416,6 +480,11 @@
 		<div class="subTitle contact3">
 			<h2 class="animation-element slide-left">Contact Me</h2>
 		</div>
+		<?php if (!empty($feedback)) : ?>
+			<div class="alert alert-info emailAlert" id ="alert">
+				<?php echo $feedback; ?>
+			</div>
+		<?php endif; ?>
 		<div class="contact" id="contactMe">
 			<form method="post" action="visualDesign.php#alert" id="contact" class="form-horizontal  text-left">
 				<div class="form-group text-left">
@@ -427,8 +496,8 @@
 					<input name="email" type="email" class="form-control" id="email" placeholder= "Type email">
 				</div>
 				<div class="form-group text-left">
-					<label for="subject">Service:</label>
-					<input name="subject" type="text" class="form-control" id="subject" placeholder= "Type service. (ex. Painting)">
+					<label for="service">Service:</label>
+					<input name="service" type="text" class="form-control" id="service" placeholder= "Type service. (ex. Painting)">
 				</div>
 				<div class="form-group text-left">
 					<label for="message">Message:</label>
@@ -438,7 +507,6 @@
 			</form>
 		</div>
 		<footer>
-			<img src="img/miguelsLogo.png" width="50px">
 			<div class="contactLinks">
 				<div class="email">
 					<i class="fa fa-envelope" aria-hidden="true" style="font-size: 2em;"></i>
@@ -453,7 +521,8 @@
 					<a href="tel:1-562-528-2770"><p>Secondary : 562-528-2770</p></a>
 				</div>
 			</div>
-			<p class="copyright">&copy; <?php echo date('Y'); ?> Miguel's Painting Services.<br>All rights reserved.</p>
+			<img src="img/miguelsLogo.png" width="50px">
+			<p class="copyright">&copy; <?php echo date('Y'); ?> Miguel's Painting & Carpet Cleaning Services.<br>All rights reserved.</p>
 		</footer>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

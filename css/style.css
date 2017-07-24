@@ -237,10 +237,12 @@ div.BnA .after:hover {
 
 div.BnA .CC:hover {
    cursor: pointer;
+   opacity: .75;
 }
 
 div.BnA .PS:hover {
    cursor: pointer;
+   opacity: .75;
 }
 
 .instruction {
@@ -248,6 +250,11 @@ div.BnA .PS:hover {
 	color: #156199;
   padding-top: 10em;
   padding-bottom: 10em;
+}
+
+.instruction i {
+  font-size: 3em;
+  color: #dee788;
 }
 
 div.B2T {
@@ -297,12 +304,13 @@ footer {
 }
 
 footer img {
-   padding-top: 2em;
+
    padding-bottom: 2em;
 }
 
 .contactLinks {
   text-align: center;
+  padding-top: 2em;
 }
 
 .email {
@@ -326,22 +334,32 @@ footer img {
   color: #fff;
   padding-bottom: 1.5em;
   padding-right: 3em;
+  text-align: center;
 }
 
+.number i {
+  margin-left: .6em;
+}
 
 .number p {
   display: inline-block;
+  margin-left: 2em;
 }
 
 .number2 {
   color: #fff;
   padding-bottom: 1.5em;
   padding-right: 3em;
+  text-align: center;
 }
 
+.number2 i {
+  margin-left: 1.4em;
+}
 
 .number2 p {
   display: inline-block;
+  margin-left: 2em;
 }
 
 div.number a {
