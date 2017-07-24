@@ -486,7 +486,7 @@ if (isset($_POST['name']))
 			</div>
 		<?php endif; ?>
 		<div class="contact" id="contactMe">
-			<form method="post" action="visualDesign.php#alert" id="contact" class="form-horizontal  text-left">
+			<form method="post" action="index.php#alert" id="contact" class="form-horizontal  text-left">
 				<div class="form-group text-left">
 					<label for="name">Name:</label>
 					<input name="name" type="name" class="form-control" id="name" placeholder= "Type full name">
