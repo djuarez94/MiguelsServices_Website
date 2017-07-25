@@ -179,39 +179,35 @@ if (isset($_POST['name']))
 			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_4.jpg" alt="Fourth slide">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Fourth slide">
 			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Fifth slide">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Fifth slide">
 			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Sixth slide">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Sixth slide">
 			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Seventh slide">
+			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Seventh slide">
 			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Eight slide">
+			              <img src="img/miguelwebsitephotos/carpetCleaning_9.jpg" alt="Eight slide">
 			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img src="img/miguelwebsitephotos/carpetCleaning_9.jpg" alt="Nineth slide">
-			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
-			            </div>
-						<div class="item">
-			              <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Eleventh slide">
+			              <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Nineth slide">
 			              <div class="carousel-caption"><p>Product used to clean floor/ carpet.</p></div>
 			            </div>
 						<div class="item">
-			              <img src="img/miguelwebsitephotos/carpetCleaning_truck.jpg" alt="Twelvth slide">
+			              <img src="img/miguelwebsitephotos/carpetCleaning_truck.jpg" alt="Tenth slide">
 			              <div class="carousel-caption"><p>Truck and equipment used for service.</p></div>
 			            </div>
 						<div class="item">
-			              <img src="img/miguelwebsitephotos/before_afterCarpet.jpg" alt="Thirteenth slide">
+			              <img src="img/miguelwebsitephotos/before_afterCarpet.jpg" alt="Eleventh slide">
 			              <div class="carousel-caption"><p>Before & after of a carpet to show comparison</p></div>
 			            </div>
 			          </div><!-- /.carousel-inner -->
@@ -414,7 +410,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_4_small.jpg" alt="Carpet_Cleaning_4" style="width:100%">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_5_small.jpg" alt="Carpet_Cleaning_4" style="width:100%">
 						  <div class="caption">
 							<p>Floor Cleaning</p>
 						  </div>
@@ -424,7 +420,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_5_small.jpg" alt="Carpet_Cleaning_5" style="width:100%">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_6_small.jpg" alt="Carpet_Cleaning_5" style="width:100%">
 						  <div class="caption">
 							<p>Floor Cleaning</p>
 						  </div>
@@ -434,7 +430,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_6_small.jpg" alt="Carpet_Cleaning_6" style="width:100%">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_7_small.jpg" alt="Carpet_Cleaning_6" style="width:100%">
 						  <div class="caption">
 							<p>Floor Cleaning</p>
 						  </div>
@@ -444,17 +440,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_7_small.jpg" alt="Carpet_Cleaning_7" style="width:100%">
-						  <div class="caption">
-							<p>Floor Cleaning</p>
-						  </div>
-						</a>
-					  </div>
-					</div>
-					<div class="col-md-4">
-					  <div class="thumbnail star">
-						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_9_small.jpg" alt="Carpet_Cleaning_8" style="width:100%">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_9_small.jpg" alt="Carpet_Cleaning_7" style="width:100%">
 						  <div class="caption">
 							<p>Carpet Cleaning</p>
 						  </div>
@@ -475,7 +461,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Carpet_Cleaning_8" style="width:100%">
+						  <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Carpet_Cleaning_9" style="width:100%">
 						  <div class="caption">
 							<p>Product used to clean floor/ carpet.</p>
 						  </div>
@@ -486,7 +472,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_truck.jpg" alt="Carpet_Cleaning_9" style="width:100%">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_truck.jpg" alt="Carpet_Cleaning_10" style="width:100%">
 						  <div class="caption">
 							<p>Truck and equipment used for service.</p>
 						  </div>
@@ -497,7 +483,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/before_afterCarpet.jpg" alt="Carpet_Cleaning_10" style="width:100%">
+						  <img src="img/miguelwebsitephotos/before_afterCarpet.jpg" alt="Carpet_Cleaning_11" style="width:100%">
 						  <div class="caption">
 							<p>Before & after of a carpet to show comparison</p>
 						  </div>
