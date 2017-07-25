@@ -157,6 +157,7 @@ img.flip{
 .carousel-inner p {
    font-size: 1.4em;
    color: #fff;
+   font-family: sans-serif;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -188,6 +189,7 @@ div.about img {
 div.about p {
    text-align: left;
    font-size: 1.2em;
+   font-family: sans-serif;
 }
 
 .subTitle {
