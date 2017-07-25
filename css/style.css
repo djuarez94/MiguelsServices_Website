@@ -181,6 +181,10 @@ div.about h2 {
    padding-bottom: .2em;
 }
 
+div.about img {
+  padding-bottom: 3em;
+}
+
 div.about p {
    text-align: left;
    font-size: 1.2em;
@@ -444,7 +448,7 @@ div.number2 a {
   }
 
   footer {
-    height: 200px;
+    height: 75%;
   }
 
   .copyright {

@@ -140,6 +140,7 @@ if (isset($_POST['name']))
 		</div>
 		<div class="about" id="about">
 			<h2>Who Am I?</h2>
+			<img src="img/miguelwebsitephotos/photoOfMig.jpg" alt="Photo of Miguel" width="300px">
 			<p class="star">Hello! My name is Miguel Prieto and I provide professional carpet cleaning and painting services. I am located in the city of Long Beach, and have been running this business for 10 years. I began this business in hopes to give my clients the best painting and carpet cleaning services that any home or business owner would be happy to receive. I love to see the smiles on my clients faces when they see the new look to their house or business. So if you are looking to have a new paint job or a fresh carpet cleaned up and ready for any event you have came to the right place!</p>
 		</div>
 		<div class="services" id="services">
@@ -204,6 +205,14 @@ if (isset($_POST['name']))
 						<div class="item">
 			              <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Eleventh slide">
 			              <div class="carousel-caption"><p>Product used to clean floor/ carpet.</p></div>
+			            </div>
+						<div class="item">
+			              <img src="img/miguelwebsitephotos/carpetCleaning_truck.jpg" alt="Twelvth slide">
+			              <div class="carousel-caption"><p>Truck and equipment used for service.</p></div>
+			            </div>
+						<div class="item">
+			              <img src="img/miguelwebsitephotos/before_afterCarpet.jpg" alt="Thirteenth slide">
+			              <div class="carousel-caption"><p>Before & after of a carpet to show comparison</p></div>
 			            </div>
 			          </div><!-- /.carousel-inner -->
 			          <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
@@ -469,6 +478,28 @@ if (isset($_POST['name']))
 						  <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Carpet_Cleaning_8" style="width:100%">
 						  <div class="caption">
 							<p>Product used to clean floor/ carpet.</p>
+						  </div>
+						</a>
+					  </div>
+					</div>
+
+					<div class="col-md-4">
+					  <div class="thumbnail star">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/carpetCleaning_truck.jpg" alt="Carpet_Cleaning_9" style="width:100%">
+						  <div class="caption">
+							<p>Truck and equipment used for service.</p>
+						  </div>
+						</a>
+					  </div>
+					</div>
+
+					<div class="col-md-4">
+					  <div class="thumbnail star">
+						<a href="#lightbox" data-toggle="modal">
+						  <img src="img/miguelwebsitephotos/before_afterCarpet.jpg" alt="Carpet_Cleaning_10" style="width:100%">
+						  <div class="caption">
+							<p>Before & after of a carpet to show comparison</p>
 						  </div>
 						</a>
 					  </div>
