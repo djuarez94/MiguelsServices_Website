@@ -109,7 +109,7 @@ if (isset($_POST['name']))
 				<div class="item active">
 					<div class="carousel-caption" style="position:static;">
 						<img class='star shadow' src="img/gpsIcon.png">
-						<p>Miguel's janitorial & painting services covers up to 40 miles in the Long Beach, Los Angeles area.</p>
+						<p>Miguel's janitorial & painting services covers up to 50 miles in the Long Beach, Los Angeles area.</p>
 					</div>
 				</div>
 
@@ -141,7 +141,7 @@ if (isset($_POST['name']))
 		<div class="about" id="about">
 			<h2>Who Am I?</h2>
 			<img src="img/miguelwebsitephotos/photoOfMig.jpg" alt="Photo of Miguel" width="300px">
-			<p class="star">Hello! My name is Miguel Prieto and I provide professional janitorial and painting services. I am located in the city of Long Beach, and have been running this business for 10 years. I began this business in hopes to give my clients the best painting and carpet cleaning services that any home or business owner would be happy to receive. I love to see the smiles on my clients faces when they see the new look to their house or business. So if you are looking to have a new paint job or a fresh carpet cleaned up and ready for any event you have came to the right place!</p>
+			<p class="star">Hello! My name is Miguel Prieto and I provide professional janitorial and painting services. I am located in the city of Long Beach, and have been running this business for 15 years. I began this business in hopes to give my clients the best painting and carpet cleaning services that any home or business owner would be happy to receive. I love to see the smiles on my clients faces when they see the new look to their house or business. So if you are looking to have a new paint job or a fresh carpet cleaned up and ready for any event you have came to the right place!</p>
 		</div>
 		<div class="services" id="services">
 			<div class="subTitle">
@@ -155,7 +155,7 @@ if (isset($_POST['name']))
 				<i class="fa fa-arrow-up" aria-hidden="true"></i>
 				<h2>Click a service above!</h2>
 			</div>
-			
+
 				<div class="serviceDescr hidden" id="janitorial">
 					<h2>Janitorial Services</h2>
 					<p>I provide janitorial services for commercial buildings. This includes office cleaning, carpet cleaning, and strip and waxed floors.</p>
@@ -163,7 +163,7 @@ if (isset($_POST['name']))
 				<div class="serviceDescr hidden" id="painting">
 					<h2>Painting Services</h2>
 					<p>I provide painting services for residential buildings. This includes painting interior and exterior, patches, sanding, applyin primer, and the final coat of paint as well.</p>
-				
+
 			</div>
 			<div class="container">
 			  <div class="modal fade and carousel slide" id="lightbox">
