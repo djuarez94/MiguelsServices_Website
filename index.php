@@ -155,7 +155,7 @@ if (isset($_POST['name']))
 				<i class="fa fa-arrow-up" aria-hidden="true"></i>
 				<h2>Click a service above!</h2>
 			</div>
-			<div class="row">
+			
 				<div class="serviceDescr hidden" id="janitorial">
 					<h2>Janitorial Services</h2>
 					<p>I provide janitorial services for commercial buildings. This includes office cleaning, carpet cleaning, and strip and waxed floors.</p>
@@ -163,7 +163,7 @@ if (isset($_POST['name']))
 				<div class="serviceDescr hidden" id="painting">
 					<h2>Painting Services</h2>
 					<p>I provide painting services for residential buildings. This includes painting interior and exterior, patches, sanding, applyin primer, and the final coat of paint as well.</p>
-				</div>
+				
 			</div>
 			<div class="container">
 			  <div class="modal fade and carousel slide" id="lightbox">
