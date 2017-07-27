@@ -66,7 +66,7 @@ if (isset($_POST['name']))
 	<head>
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Miguel's Painting & Carpet Cleaning Services</title>
+        <title>Miguel's Janitorial & Painting Services</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -103,7 +103,7 @@ if (isset($_POST['name']))
 				<li data-target="#myCarousel" data-slide-to="1"></li>
 				<li data-target="#myCarousel" data-slide-to="2"></li>
 			</ol>
-			<h1 class="star shadow">Miguel's Painting & Carpet Cleaning Services</h1>
+			<h1 class="star shadow">Miguel's Janitorial & Painting Services</h1>
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" id="mainCarousel">
 				<div class="item active">
@@ -147,13 +147,23 @@ if (isset($_POST['name']))
 			<div class="subTitle">
 				<h2 class="animation-element slide-left">Services</h2>
 				<div class="BnA star">
-					<div class="CC">Carpet Cleaning</div>
+					<div class="CC">Janitorial Services</div>
 					<div class="PS">Painting Services</div>
 				</div>
 			</div>
 			<div class="instruction star">
 				<i class="fa fa-arrow-up" aria-hidden="true"></i>
 				<h2>Click a service above!</h2>
+			</div>
+			<div class="row">
+				<div class="serviceDescr hidden" id="janitorial">
+					<h2>Janitorial Services</h2>
+					<p>I provide janitporial services for commercial buildings. This includes office cleaning, carpet cleaning, and strip and waxed floors.</p>
+				</div>
+				<div class="serviceDescr hidden" id="painting">
+					<h2>Painting Services</h2>
+					<p>I provide painting services for residential buildings. This includes painting interior and exterior, patches, sanding, applyin primer, and the final coat of paint as well.</p>
+				</div>
 			</div>
 			<div class="container">
 			  <div class="modal fade and carousel slide" id="lightbox">
@@ -168,35 +178,35 @@ if (isset($_POST['name']))
 			          <div class="carousel-inner">
 			            <div class="item active">
 			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_1.jpg" alt="First slide">
-						  <div class="carousel-caption"><p>Floor Cleaning</p></div>
+						  <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 			            <div class="item">
 			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_2.jpg" alt="Second slide">
-						  <div class="carousel-caption"><p>Floor Cleaning</p></div>
+						  <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 			            <div class="item">
 			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_3.jpg" alt="Third slide">
-			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
 			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Fourth slide">
-			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
 			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Fifth slide">
-			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
 			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Sixth slide">
-			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
 			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Seventh slide">
-			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
 			              <img src="img/miguelwebsitephotos/carpetCleaning_9.jpg" alt="Eight slide">
-			              <div class="carousel-caption"><p>Floor Cleaning</p></div>
+			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
 			              <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Nineth slide">
@@ -382,7 +392,7 @@ if (isset($_POST['name']))
 						<a href="#lightbox" data-toggle="modal">
 						  <img src="img/miguelwebsitephotos/carpetCleaning_1_small.jpg" alt="Carpet_Cleaning_1" style="width:100%">
 						  <div class="caption">
-							<p>Floor Cleaning</p>
+							<p>Janitorial Cleaning</p>
 						  </div>
 						</a>
 					  </div>
@@ -392,7 +402,7 @@ if (isset($_POST['name']))
 						<a href="#lightbox" data-toggle="modal">
 						  <img src="img/miguelwebsitephotos/carpetCleaning_2_small.jpg" alt="Carpet_Cleaning_2" style="width:100%">
 						  <div class="caption">
-							<p>Floor Cleaning</p>
+							<p>Janitorial Cleaning</p>
 						  </div>
 						</a>
 					  </div>
@@ -402,7 +412,7 @@ if (isset($_POST['name']))
 						<a href="#lightbox" data-toggle="modal">
 						  <img src="img/miguelwebsitephotos/carpetCleaning_3_small.jpg" alt="Carpet_Cleaning_3" style="width:100%">
 						  <div class="caption">
-							<p>Floor Cleaning</p>
+							<p>Janitorial Cleaning</p>
 						  </div>
 						</a>
 					  </div>
@@ -412,7 +422,7 @@ if (isset($_POST['name']))
 						<a href="#lightbox" data-toggle="modal">
 						  <img src="img/miguelwebsitephotos/carpetCleaning_5_small.jpg" alt="Carpet_Cleaning_4" style="width:100%">
 						  <div class="caption">
-							<p>Floor Cleaning</p>
+							<p>Janitorial Cleaning</p>
 						  </div>
 						</a>
 					  </div>
@@ -422,7 +432,7 @@ if (isset($_POST['name']))
 						<a href="#lightbox" data-toggle="modal">
 						  <img src="img/miguelwebsitephotos/carpetCleaning_6_small.jpg" alt="Carpet_Cleaning_5" style="width:100%">
 						  <div class="caption">
-							<p>Floor Cleaning</p>
+							<p>Janitorial Cleaning</p>
 						  </div>
 						</a>
 					  </div>
@@ -432,7 +442,7 @@ if (isset($_POST['name']))
 						<a href="#lightbox" data-toggle="modal">
 						  <img src="img/miguelwebsitephotos/carpetCleaning_7_small.jpg" alt="Carpet_Cleaning_6" style="width:100%">
 						  <div class="caption">
-							<p>Floor Cleaning</p>
+							<p>Janitorial Cleaning</p>
 						  </div>
 						</a>
 					  </div>
@@ -540,7 +550,7 @@ if (isset($_POST['name']))
 			</div>
 			<div class="copyrightLogo">
 				<img src="img/miguelsLogo.png" width="50px">
-				<p class="copyright">&copy; <?php echo date('Y'); ?> Miguel's Painting & Carpet Cleaning Services.<br>All rights reserved.</p>
+				<p class="copyright">&copy; <?php echo date('Y'); ?> Miguel's Janitorial & Painting Services.<br>All rights reserved.</p>
 			</div>
 		</footer>
 	</body>

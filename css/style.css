@@ -206,7 +206,7 @@ div.about p {
 }
 
 div.container {
-  margin-top: 2em;
+  margin-top: .5em;
 }
 
 div.BnA {
@@ -268,6 +268,41 @@ div.BnA .PS:hover {
    cursor: pointer;
    opacity: .75;
 }
+
+.serviceDescr {
+  padding-top: .75em;
+}
+
+#painting {
+  padding-left: 4em;
+  padding-right: 4em;
+  color: #156199;
+}
+
+#painting h2{
+	text-align: center;
+}
+
+#painting p{
+	font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+#janitorial {
+  padding-left: 4em;
+  padding-right: 4em;
+  color: #156199;
+}
+
+#janitorial h2{
+	text-align: center;
+}
+
+#janitorial p{
+	font-family: sans-serif;
+  font-size: 1.2em;
+}
+
 
 .instruction {
 	text-align: center;
@@ -417,6 +452,18 @@ div.number2 a {
     padding-left: 2em;
     padding-right: 2em;
   }
+
+  #painting {
+    padding-left: 6em;
+    padding-right: 6em;
+    color: #156199;
+  }
+
+  #janitorial {
+    padding-left: 6em;
+    padding-right: 6em;
+    color: #156199;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -447,6 +494,16 @@ div.number2 a {
   .about p {
     padding-left: 8em;
     padding-right: 8em;
+  }
+
+  #painting {
+    padding-left: 13em;
+    padding-right: 13em;
+  }
+
+  #janitorial {
+    padding-left: 13em;
+    padding-right: 13em;
   }
 
   footer {
@@ -495,6 +552,16 @@ div.number2 a {
   div.about {
     padding-top: 2em;
     padding-bottom: 3em;
+  }
+
+  #painting {
+    padding-left: 14em;
+    padding-right: 14em;
+  }
+
+  #janitorial {
+    padding-left: 14em;
+    padding-right: 14em;
   }
 
   div.copyrightLogo {

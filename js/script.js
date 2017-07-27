@@ -107,23 +107,29 @@ $window.trigger('scroll');
 | Show Service On CLick
 -------------------------------------*/
 function displayPainting () {
+  $('.instruction').addClass('hidden');
+
   $('#paint').removeClass('hidden');
   $('.B2T').removeClass('hidden');
+  $('#painting').removeClass('hidden');
 
   $('#carpet').addClass('hidden');
+  $('#janitorial').addClass('hidden');
   $('.B2T').addClass('show');
-
-  $('.instruction').addClass('hidden');
+  $('#painting').addClass('show');
 }
 
 function displayCarpet () {
+  $('.instruction').addClass('hidden');
+
   $('#carpet').removeClass('hidden');
   $('.B2T').removeClass('hidden');
+  $('#janitorial').removeClass('hidden');
 
   $('#paint').addClass('hidden');
+  $('#painting').addClass('hidden');
   $('.B2T').addClass('show');
-
-  $('.instruction').addClass('hidden');
+  $('#janitorial').addCLass('show');
 }
 
 $('.PS').click(displayPainting);
