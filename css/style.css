@@ -184,6 +184,7 @@ div.about h2 {
 
 div.about img {
   padding-bottom: 3em;
+  text-align: center;
 }
 
 div.about p {
@@ -318,6 +319,7 @@ div.BnA .PS:hover {
 
 div.B2T {
 	padding: 0px 10px 15px 0px;
+  text-decoration: underline;
 }
 
  div.services {
