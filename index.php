@@ -28,13 +28,13 @@ if (isset($_POST['name']))
 		| Compose
 		-------------------------------------*/
 		$body = '
-			Hi! My name is ' . $name . ' I am sending you this email in reference your  ' . $service . ' services. <br><br>x
+			Hi! My name is ' . $name . ' I am sending you this email in reference to your  ' . $service . ' services. <br><br>x
 
 			' . $message . '<br>
 
 			Sincerely,<br>
 			' . $name . '<br>
-			P.S. Oh yeah, my email is ' . $email . '.
+			P.S. My email is ' . $email . '.
 		';
 
 		/*-------------------------------------
@@ -56,7 +56,7 @@ if (isset($_POST['name']))
 		}
 		else
 		{
-			$feedback = 'Message Sent from our servers. Let\'s hope it gets through the mail servers!';
+			$feedback = 'Message successfully sent. Thank you!';
 		}
 	}
 }
@@ -140,7 +140,7 @@ if (isset($_POST['name']))
 		</div>
 		<div class="about" id="about">
 			<h2>Who Am I?</h2>
-			<img src="img/miguelwebsitephotos/photoOfMig.jpg" alt="Photo of Miguel" width="300px">
+			<img src="img/photoOfMig.jpg" alt="Photo of Miguel" width="300px">
 			<p class="star">Hello! My name is Miguel Prieto and I provide professional janitorial and painting services. I am located in the city of Long Beach, and have been running this business for 15 years. I began this business in hopes to give my clients the best painting and carpet cleaning services that any home or business owner would be happy to receive. I love to see the smiles on my clients faces when they see the new look to their house or business. So if you are looking to have a new paint job or a fresh carpet cleaned up and ready for any event you have came to the right place!</p>
 		</div>
 		<div class="services" id="services">
@@ -177,47 +177,47 @@ if (isset($_POST['name']))
 			          </ol> -->
 			          <div class="carousel-inner">
 			            <div class="item active">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_1.jpg" alt="First slide">
+			              <img class="flip" src="img/carpetCleaning_1.jpg" alt="First slide">
 						  <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 			            <div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_2.jpg" alt="Second slide">
+			              <img class="flip" src="img/carpetCleaning_2.jpg" alt="Second slide">
 						  <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 			            <div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_3.jpg" alt="Third slide">
+			              <img class="flip" src="img/carpetCleaning_3.jpg" alt="Third slide">
 			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_5.jpg" alt="Fourth slide">
+			              <img class="flip" src="img/carpetCleaning_5.jpg" alt="Fourth slide">
 			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_6.jpg" alt="Fifth slide">
+			              <img class="flip" src="img/carpetCleaning_6.jpg" alt="Fifth slide">
 			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_7.jpg" alt="Sixth slide">
+			              <img class="flip" src="img/carpetCleaning_7.jpg" alt="Sixth slide">
 			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/carpetCleaning_8.jpg" alt="Seventh slide">
+			              <img class="flip" src="img/carpetCleaning_8.jpg" alt="Seventh slide">
 			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img src="img/miguelwebsitephotos/carpetCleaning_9.jpg" alt="Eight slide">
+			              <img src="img/carpetCleaning_9.jpg" alt="Eight slide">
 			              <div class="carousel-caption"><p>Janitorial Cleaning</p></div>
 			            </div>
 						<div class="item">
-			              <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Nineth slide">
+			              <img src="img/cleaningProduct.jpg" alt="Nineth slide">
 			              <div class="carousel-caption"><p>Product used to clean floor/ carpet.</p></div>
 			            </div>
 						<div class="item">
-			              <img src="img/miguelwebsitephotos/carpetCleaning_truck.jpg" alt="Tenth slide">
+			              <img src="img/carpetCleaning_truck.jpg" alt="Tenth slide">
 			              <div class="carousel-caption"><p>Truck and equipment used for service.</p></div>
 			            </div>
 						<div class="item">
-			              <img src="img/miguelwebsitephotos/before_afterCarpet.jpg" alt="Eleventh slide">
+			              <img src="img/before_afterCarpet.jpg" alt="Eleventh slide">
 			              <div class="carousel-caption"><p>Before & after of a carpet to show comparison</p></div>
 			            </div>
 			          </div><!-- /.carousel-inner -->
@@ -244,39 +244,39 @@ if (isset($_POST['name']))
 			          </ol> -->
 			          <div class="carousel-inner" id="carousel-inner_2">
 						  <div class="item active">
-  			              <img src="img/miguelwebsitephotos/painting_before_1.jpg" alt="First slide">
+  			              <img src="img/painting_before_1.jpg" alt="First slide">
   			              <div class="carousel-caption"><p>Before painting</p></div>
   			            </div>
   						<div class="item">
-  			              <img src="img/miguelwebsitephotos/painting_before_2.jpg" alt="Second slide">
+  			              <img src="img/painting_before_2.jpg" alt="Second slide">
   			              <div class="carousel-caption"><p>Before painting</p></div>
   			            </div>
   						<div class="item">
-  			              <img class="flip" src="img/miguelwebsitephotos/painting_before_3.jpg" alt="Third slide">
+  			              <img class="flip" src="img/painting_before_3.jpg" alt="Third slide">
   			              <div class="carousel-caption"><p>Before painting</p></div>
   			            </div>
 			            <div class="item">
-			              <img src="img/miguelwebsitephotos/painting_after_1.jpg" alt="Fourth slide">
+			              <img src="img/painting_after_1.jpg" alt="Fourth slide">
 						  <div class="carousel-caption"><p>After painting</p></div>
 			            </div>
 			            <div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/painting_after_3.jpg" alt="Fifth slide">
+			              <img class="flip" src="img/painting_after_3.jpg" alt="Fifth slide">
 			              <div class="carousel-caption"><p>After painting</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/painting_after_4.jpg" alt="Sixth slide">
+			              <img class="flip" src="img/painting_after_4.jpg" alt="Sixth slide">
 			              <div class="carousel-caption"><p>After painting</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/painting_after_5.jpg" alt="Seventh slide">
+			              <img class="flip" src="img/painting_after_5.jpg" alt="Seventh slide">
 			              <div class="carousel-caption"><p>After painting</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/painting_after_6.jpg" alt="Eighth slide">
+			              <img class="flip" src="img/painting_after_6.jpg" alt="Eighth slide">
 			              <div class="carousel-caption"><p>After painting</p></div>
 			            </div>
 						<div class="item">
-			              <img class="flip" src="img/miguelwebsitephotos/painting_after_7.jpg" alt="Nineth slide">
+			              <img class="flip" src="img/painting_after_7.jpg" alt="Nineth slide">
 			              <div class="carousel-caption"><p>After painting</p></div>
 			            </div>
 			          </div><!-- /.carousel-inner -->
@@ -296,7 +296,7 @@ if (isset($_POST['name']))
 				  <div class="col-md-4">
 				    <div class="thumbnail star">
 				      <a href="#lightbox2" data-toggle="modal">
-						<img src="img/miguelwebsitephotos/painting_before_1.jpg" alt="">
+						<img src="img/painting_before_1.jpg" alt="">
 						<div class="caption">
   				          <p>Before Painting</p>
   				        </div>
@@ -306,7 +306,7 @@ if (isset($_POST['name']))
 				  <div class="col-md-4">
 				    <div class="thumbnail star">
 						<a href="#lightbox2" data-toggle="modal">
-  							<img src="img/miguelwebsitephotos/painting_before_2.jpg" alt="">
+  							<img src="img/painting_before_2.jpg" alt="">
   							<div class="caption">
     				          <p>Before Painting</p>
     				        </div>
@@ -316,7 +316,7 @@ if (isset($_POST['name']))
 				  <div class="col-md-4">
 				   <div class="thumbnail star">
 						<a href="#lightbox2" data-toggle="modal">
-	  					   <img src="img/miguelwebsitephotos/painting_before_3_small.jpg" alt="">
+	  					   <img src="img/painting_before_3_small.jpg" alt="">
 	  					   <div class="caption">
 	  						 <p>Before Painting</p>
 	  					   </div>
@@ -326,7 +326,7 @@ if (isset($_POST['name']))
 				  <div class="col-md-4">
 				    <div class="thumbnail star">
 				      <a href="#lightbox2" data-toggle="modal">
-				        <img src="img/miguelwebsitephotos/painting_after_1.jpg" alt="After_1" style="width:100%">
+				        <img src="img/painting_after_1.jpg" alt="After_1" style="width:100%">
 				        <div class="caption">
 				          <p>After Painting</p>
 				        </div>
@@ -336,7 +336,7 @@ if (isset($_POST['name']))
 				 <div class="col-md-4">
 				   <div class="thumbnail star">
 					 <a href="#lightbox2" data-toggle="modal">
-					   <img src="img/miguelwebsitephotos/painting_after_5_small.jpg" alt="After_2" style="width:100%">
+					   <img src="img/painting_after_5_small.jpg" alt="After_2" style="width:100%">
 					   <div class="caption">
 						 <p>After Painting</p>
 					   </div>
@@ -346,7 +346,7 @@ if (isset($_POST['name']))
 				 <div class="col-md-4">
 				   <div class="thumbnail star">
 					 <a href="#lightbox2" data-toggle="modal">
-					   <img src="img/miguelwebsitephotos/painting_after_4_small.jpg" alt="After_3" style="width:100%">
+					   <img src="img/painting_after_4_small.jpg" alt="After_3" style="width:100%">
 					   <div class="caption">
 						 <p>After Painting</p>
 					   </div>
@@ -356,7 +356,7 @@ if (isset($_POST['name']))
 				 <div class="col-md-4">
 				   <div class="thumbnail star">
 					 <a href="#lightbox2" data-toggle="modal">
-					   <img src="img/miguelwebsitephotos/painting_after_5_small.jpg" alt="After_4" style="width:100%">
+					   <img src="img/painting_after_5_small.jpg" alt="After_4" style="width:100%">
 					   <div class="caption">
 						 <p>After Painting</p>
 					   </div>
@@ -366,7 +366,7 @@ if (isset($_POST['name']))
 				 <div class="col-md-4">
 				   <div class="thumbnail star">
 					 <a href="#lightbox2" data-toggle="modal">
-					   <img src="img/miguelwebsitephotos/painting_after_6_small.jpg" alt="After_5" style="width:100%">
+					   <img src="img/painting_after_6_small.jpg" alt="After_5" style="width:100%">
 					   <div class="caption">
 						 <p>After Painting</p>
 					   </div>
@@ -376,7 +376,7 @@ if (isset($_POST['name']))
 				 <div class="col-md-4">
 				   <div class="thumbnail star">
 					 <a href="#lightbox2" data-toggle="modal">
-					   <img src="img/miguelwebsitephotos/painting_after_7_small.jpg" alt="After_6" style="width:100%">
+					   <img src="img/painting_after_7_small.jpg" alt="After_6" style="width:100%">
 					   <div class="caption">
 						 <p>After Painting</p>
 					   </div>
@@ -390,7 +390,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_1_small.jpg" alt="Carpet_Cleaning_1" style="width:100%">
+						  <img src="img/carpetCleaning_1_small.jpg" alt="Carpet_Cleaning_1" style="width:100%">
 						  <div class="caption">
 							<p>Janitorial Cleaning</p>
 						  </div>
@@ -400,7 +400,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_2_small.jpg" alt="Carpet_Cleaning_2" style="width:100%">
+						  <img src="img/carpetCleaning_2_small.jpg" alt="Carpet_Cleaning_2" style="width:100%">
 						  <div class="caption">
 							<p>Janitorial Cleaning</p>
 						  </div>
@@ -410,7 +410,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_3_small.jpg" alt="Carpet_Cleaning_3" style="width:100%">
+						  <img src="img/carpetCleaning_3_small.jpg" alt="Carpet_Cleaning_3" style="width:100%">
 						  <div class="caption">
 							<p>Janitorial Cleaning</p>
 						  </div>
@@ -420,7 +420,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_5_small.jpg" alt="Carpet_Cleaning_4" style="width:100%">
+						  <img src="img/carpetCleaning_5_small.jpg" alt="Carpet_Cleaning_4" style="width:100%">
 						  <div class="caption">
 							<p>Janitorial Cleaning</p>
 						  </div>
@@ -430,7 +430,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_6_small.jpg" alt="Carpet_Cleaning_5" style="width:100%">
+						  <img src="img/carpetCleaning_6_small.jpg" alt="Carpet_Cleaning_5" style="width:100%">
 						  <div class="caption">
 							<p>Janitorial Cleaning</p>
 						  </div>
@@ -440,7 +440,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_7_small.jpg" alt="Carpet_Cleaning_6" style="width:100%">
+						  <img src="img/carpetCleaning_7_small.jpg" alt="Carpet_Cleaning_6" style="width:100%">
 						  <div class="caption">
 							<p>Janitorial Cleaning</p>
 						  </div>
@@ -450,7 +450,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_9_small.jpg" alt="Carpet_Cleaning_7" style="width:100%">
+						  <img src="img/carpetCleaning_9_small.jpg" alt="Carpet_Cleaning_7" style="width:100%">
 						  <div class="caption">
 							<p>Carpet Cleaning</p>
 						  </div>
@@ -460,7 +460,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_8_small.jpg" alt="Carpet_Cleaning_8" style="width:100%">
+						  <img src="img/carpetCleaning_8_small.jpg" alt="Carpet_Cleaning_8" style="width:100%">
 						  <div class="caption">
 							<p>Equipment used for the cleaning process.</p>
 						  </div>
@@ -471,7 +471,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/cleaningProduct.jpg" alt="Carpet_Cleaning_9" style="width:100%">
+						  <img src="img/cleaningProduct.jpg" alt="Carpet_Cleaning_9" style="width:100%">
 						  <div class="caption">
 							<p>Product used to clean floor/ carpet.</p>
 						  </div>
@@ -482,7 +482,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/carpetCleaning_truck.jpg" alt="Carpet_Cleaning_10" style="width:100%">
+						  <img src="img/carpetCleaning_truck.jpg" alt="Carpet_Cleaning_10" style="width:100%">
 						  <div class="caption">
 							<p>Truck and equipment used for service.</p>
 						  </div>
@@ -493,7 +493,7 @@ if (isset($_POST['name']))
 					<div class="col-md-4">
 					  <div class="thumbnail star">
 						<a href="#lightbox" data-toggle="modal">
-						  <img src="img/miguelwebsitephotos/before_afterCarpet.jpg" alt="Carpet_Cleaning_11" style="width:100%">
+						  <img src="img/before_afterCarpet.jpg" alt="Carpet_Cleaning_11" style="width:100%">
 						  <div class="caption">
 							<p>Before & after of a carpet to show comparison</p>
 						  </div>
