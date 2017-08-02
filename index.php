@@ -7,7 +7,7 @@ if (isset($_POST['name']))
 	/*-------------------------------------
 	| Initialize Variables
 	-------------------------------------*/
-	$to = "davidjuarez1411@gmail.com";
+	$to = "prietomiguel714@gmail.com";
 	$subject = "Website Contact";
 
 	$name = $_POST['name'];
@@ -28,7 +28,7 @@ if (isset($_POST['name']))
 		| Compose
 		-------------------------------------*/
 		$body = '
-			Hi! My name is ' . $name . ' I am sending you this email in reference to your  ' . $service . ' services. <br><br>x
+			Hi! My name is ' . $name . ' I am sending you this email in reference to your  ' . $service . ' services. <br><br>
 
 			' . $message . '<br>
 
@@ -40,7 +40,7 @@ if (isset($_POST['name']))
 		/*-------------------------------------
 		| Make it look like a real eamil
 		-------------------------------------*/
-		$headers = "From: davidjuarez1411@gmail.com" . "\r\n";
+		$headers = "From: prietomiguel714@gmail.com" . "\r\n";
 		$headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
 		// $headers .= "CC: susan@example.com\r\n";
 		$headers .= "MIME-Version: 1.0\r\n";
@@ -52,7 +52,7 @@ if (isset($_POST['name']))
 		-------------------------------------*/
 		if (!mail($to, $subject, $body, $headers))
 		{
-			$feedback = 'I apologize! We were unable to send from our hosted server. Please contact me directly <a href="mailto:davidjuarez1411@gmail.com">here</a>.';
+			$feedback = 'I apologize! We were unable to send from our hosted server. Please contact me directly <a href="mailto:prietomiguel714@gmail.com">here</a>.';
 		}
 		else
 		{
